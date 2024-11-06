@@ -5,9 +5,13 @@ This analysis tracks customer retention patterns and purchase behavior by cohort
 # Data Requirements:
 
 Orders table: Holds purchase information, including order date, customer ID, and order amount.
+
 Order Group table: Groups orders if needed for advanced segmentation.
+
 Store table: Provides information about the store where the purchase was made.
+
 Agent table: Information about the sales agent, useful for tracking engagement.
+
 Regions table: Customer regions to analyze geographic behavior patterns.
 
 Step 1: Data Preparation in MySQL
